@@ -1,0 +1,61 @@
+@media (max-width: 1400px) {
+    main h1 {
+        width: 900px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 500px;
+    }
+
+    section h1 {
+        font-size: 3em;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .sobrenos .texto {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width:1150px) {
+
+
+    main h1 {
+        width: 700px;
+        font-size: 4em;
+    }
+
+    .colunas {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col2 {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:730px) {
+    
+    .card {
+        width: 300px;
+    }
+
+
+    main h1 {
+        width: 350px;
+        font-size: 3.5em;
+        left: 10px;
+    }
+
+    .col1 {
+        font-size: 1.3em;
+    }
+}

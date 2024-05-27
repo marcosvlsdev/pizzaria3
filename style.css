@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor1 : #fab414;
+    --cor2 : #002128;
+    --cor3 : #e0e2d6
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    background-color: var(--cor3);
+}
+
+section {
+   padding: 90px 0;
+}
+
+h1 {
+    font-family: "Cinzel", serif;
+    font-size: 4em;
+}
+
+section h1 {
+    color: #002128;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    
+    
+}
+
+nav {
+    background-color: #002128d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 10px 50px;
+    
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: var(--cor1);
+    text-decoration: none;
+    padding: 30px 20px;
+    margin: 0 10px 0 0;
+}
+
+nav a:hover {
+    border-bottom: 1px solid var(--cor1);
+}
+
+nav p {
+    color: var(--cor1);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+main {
+    background-image: url(img/pexels-vinicius-benedit-1082343.jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position: center center;
+}
+
+main h1 {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--cor3);
+    left: 20px; 
+    font-size: 6em;
+    width: 1100px;
+    min-height: calc(100vh - 200px);
+    font-variant: small-caps;
+    font-weight: 500;
+}
+
+main::after {
+    min-height: calc(100vh - 100px);
+    width: 100%;
+    background: linear-gradient(155deg, #002128d8 30%, #002128d2 50%, transparent 70%);
+    content: '';
+    position: absolute;
+}
+
+.cardapio {
+    text-align: center;
+}
+
+.cardapio button {
+    background-color: red;
+    color: yellow;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.cardapio button:hover {
+    background-color: yellow;
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cardapio p {
+    margin: 40px 10px;
+    color: red;
+    font-weight: bold;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.404);
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 400px;
+    background-color: var(--cor3);
+    margin: 100px auto;
+    box-shadow: 0ch 0 10px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding: 20px;
+}
+
+.card h2 {
+    padding: 30px;
+    color: var(--cor2);
+}
+
+.card h3 {
+    padding: 30px 0 0 0;
+    color: red;
+}
+
+.sobrenos {
+    margin: 0 70px;
+}
+
+.sobrenos .imagem {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobrenos .texto {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2em;
+    margin: 0 50px 0 auto;
+}
+
+footer {
+    background-color: var(--cor2);
+    color: var(--cor1);
+    padding: 30px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.colunas {
+    display: flex;
+}
+
+.col1, .col2 {
+    font-size: 1.5em;
+    margin: auto;
+}
+
+
+.col2 a {
+    margin-right: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 70px auto 50px;
+    width: 95%;
+}
+
