@@ -206,3 +206,8 @@ iframe {
     width: 95%;
 }
 
+iframe p {
+    text-align: center;
+    color: var(--cor1);
+}
+
