@@ -25,7 +25,9 @@
 }
 
 @media (max-width:1150px) {
-
+    body {
+        overflow-x: hidden;
+    }
 
     main h1 {
         width: 700px;
@@ -44,6 +46,10 @@
 
 @media (max-width:730px) {
     
+    body {
+    overflow-x: hidden;
+    }
+
     .card {
         width: 300px;
     }

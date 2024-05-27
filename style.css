@@ -21,6 +21,7 @@
 body {
     background-color: var(--cor3);
     overflow-x: hidden;
+    width: 100vw;
 }
 
 section {
@@ -184,6 +185,11 @@ footer {
 footer p {
     text-align: center;
     margin-top: 25px;
+    font-size: 1em;
+}
+
+footer svg {
+    color: #fab414;
 }
 
 .colunas {
@@ -210,4 +216,8 @@ iframe p {
     text-align: center;
     color: var(--cor1);
 }
+
+
+
+
 
