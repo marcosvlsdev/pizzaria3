@@ -62,8 +62,13 @@ nav li {
 nav a {
     color: var(--cor1);
     text-decoration: none;
-    padding: 30px 20px;
-    margin: 0 10px 0 0;
+    padding: 30px 35px;
+    margin: 0 20px 0 0;
+    font-size: 1em;
+}
+
+nav i {
+    font-size: 1.4em;
 }
 
 nav a:hover {
@@ -122,6 +127,7 @@ main::after {
     background-color: yellow;
     color: red;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .cardapio p {
@@ -160,7 +166,8 @@ main::after {
 }
 
 .sobrenos .imagem {
-    margin: auto;
+    
+    margin: 0 50px 0 auto;
     text-align: center;
     width: 100%;
     align-items: center;

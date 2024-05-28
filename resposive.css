@@ -29,6 +29,19 @@
         overflow-x: hidden;
     }
 
+    nav {
+        padding: 10px 10px;
+    }
+
+    nav a {
+        padding: 30px 25px;
+        margin: 0 10px 0 0;
+    }
+
+    nav p {
+        font-size: 0.8em;
+    }
+
     main h1 {
         width: 700px;
         font-size: 4em;
@@ -42,6 +55,10 @@
     .col2 {
         margin-top: 50px;
     }
+}
+
+@media (max-width:1000px) {
+    
 }
 
 @media (max-width:730px) {
