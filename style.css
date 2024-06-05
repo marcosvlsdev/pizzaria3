@@ -46,7 +46,7 @@ header {
 }
 
 nav {
-    background-color: #002128d8;
+    background-color: #002129d8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,11 +60,13 @@ nav li {
 }
 
 nav a {
-    color: var(--cor1);
+    color: var(--cor3);
     text-decoration: none;
     padding: 30px 35px;
     margin: 0 20px 0 0;
     font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
 }
 
 nav i {
@@ -73,6 +75,23 @@ nav i {
 
 nav a:hover {
     border-bottom: 1px solid var(--cor1);
+    color: var(--cor1);
+    transition-duration: 0.3s;
+}
+
+.emoji {
+    background-color: #002129d8;
+    color: var(--cor1);
+    border-radius: 10px;
+    border: 1px solid #fab414;
+    padding: 25px 35px;
+}
+
+.emoji:hover {
+    background-color: var(--cor1);
+    color: #002128;
+    transform: translate(-5px, -5px);
+    border-bottom: none;
 }
 
 nav p {
@@ -118,16 +137,14 @@ main::after {
 .cardapio button {
     background-color: red;
     color: yellow;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 20px;
     font-size: 20px;
     font-weight: 700;
+    box-sizing: border-box;
 }
 .cardapio button:hover {
-    background-color: yellow;
-    color: red;
     cursor: pointer;
-    transform: scale(1.1);
 }
 
 .cardapio p {
@@ -166,7 +183,6 @@ main::after {
 }
 
 .sobrenos .imagem {
-    
     margin: 0 50px 0 auto;
     text-align: center;
     width: 100%;
@@ -213,15 +229,26 @@ footer svg {
     margin-right: 10px;
 }
 
+footer article {
+    text-align: center;
+    color: var(--cor1);
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
 iframe {
     display: block;
-    margin: 70px auto 50px;
     width: 95%;
+    margin: 30px auto 50px;
 }
 
 iframe p {
     text-align: center;
     color: var(--cor1);
+}
+
+.copy a{
+    color: var(--cor3);
 }
 
 
