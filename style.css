@@ -179,23 +179,23 @@ main::after {
 }
 
 .sobrenos {
-    margin: 0 70px;
+    width: 100%;
 }
 
 .sobrenos .imagem {
     margin: 0 50px 0 auto;
-    text-align: center;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+    width: 50%;
+    background-image: url(img/pizzaria2.jpeg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .sobrenos .texto {
-    width: 100%;
+    width: 50%;
     text-align: center;
     font-size: 1.5em;
     line-height: 2em;
-    margin: 0 50px 0 auto;
+    margin: 0 auto 0 50px;
     color: var(--cor2);
 }
 
