@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 
 :root {
     --cor1 : #fab414;
@@ -32,6 +33,8 @@ header {
     height: 80px;
     color: var(--cor3);
     padding: 10px;
+    
+    font-family: "Montserrat";
   }
 
   header img {
@@ -48,8 +51,9 @@ header {
     text-decoration: none;
     color: var(--cor3);
     font-weight: bolder;
-    font-size: 1.3em;
+    font-size: 1em;
     padding: 20px;
+    font-style: italic;
   }
 
   .nav-list a:hover {
@@ -86,15 +90,15 @@ header {
   }
 
 .principal {
-    background-image: url(img/vanpreta.jpeg);
+    background-image: url(img/pexels-vinicius-benedit-1082343.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center left;
-    font-family: "Inter", sans-serif;
+    font-family: "Cinzel", serif;
 }
 
 .texto {
-    background-color: rgba(0, 0, 0, 0.575);
+    background: linear-gradient(155deg, #002128d8 30%, #002128d2 50%, transparent 70%);
     height: 100%;
     color: white;
     padding: 20px;
@@ -105,29 +109,27 @@ header {
     font-size: 6vh;
 }
 
-.texto a button {
-    border: 2px solid var(--cor1);
-    background-color: var(--cor1);
-    border-radius: 5px;
-    color: white;
+#aqui {
+    color: var(--cor1);
     font-weight: bold;
     padding: 20px;
-    font-size: 3vh;
-    transition: 0.3s;
 }
 
-.transportes {
+.cardapio {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Inter", sans-serif;
-    justify-content: space-around;
+    font-family: "Montserrat";
+    justify-content: center;
 }
 
-#veiculos {
-    margin-top: 30px;
-    font-size: 2em;
-    font-family: "Libre Baskerville", serif;
+#baixar button {
+    padding: 20px;
+    font-family: "Montserrat";
+    border-radius: 10px;
+    background-color: var(--cor1);
+    color: black;
+    font-weight: bold;
 }
 
 .transporte {
@@ -248,7 +250,7 @@ footer {
 }
 
 .omega h2 {
-    font-size: 3em;
+    font-size: 2.5em;
     padding: 5px 0;
     color: var(--cor1);
 }
@@ -291,9 +293,13 @@ footer {
     
 }
 
-footer p {
+#copy {
     text-align: center;
     line-height: 1.5em;
+}
+
+.horario {
+    color: var(--cor1);
 }
 
 footer article {
@@ -331,7 +337,6 @@ iframe p {
     justify-content: center;
     margin: 60px 0;
     border-radius: 10px;
-    font-family: "Inter", sans-serif;
 }
 
 .carrosel-conteiner {
@@ -351,7 +356,6 @@ iframe p {
 }
 
 .sobrenos h1 {
-    font-family: "Libre Baskerville", serif;
     margin-bottom: 10px;
     font-size: 1.5em;
 }
