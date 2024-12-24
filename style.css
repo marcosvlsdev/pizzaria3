@@ -59,6 +59,10 @@ header {
     font-family: "Montserrat";
   }
 
+  .redes {
+    display: flex;
+  }
+
   .redes a{
     text-decoration: none;
     color: var(--cor3);
@@ -130,11 +134,12 @@ header {
     background-repeat: no-repeat;
     background-position: center left;
     font-family: "Cinzel", serif;
+    height: 65vh;
 }
 
 .texto {
     background: linear-gradient(155deg, #002128d8 30%, #002128d2 50%, transparent 70%);
-    height: 90%;
+    height: 100%;
     color: white;
     padding: 20px;
 }

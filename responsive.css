@@ -2,7 +2,7 @@
 
 @media (max-width: 800px) {
 
-    .principal .nav-list {
+    .nav-list {
       display: block;
       position: absolute;
       right: 0;
@@ -13,7 +13,7 @@
       align-items: center;
       visibility: hidden;
       z-index: 1000;
-      height: 53vh;
+      height: 65vh;
     }
 
     .nav-list a {
