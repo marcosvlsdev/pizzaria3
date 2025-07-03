@@ -19,6 +19,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: "Montserrat";
 }
 
 button {
@@ -55,8 +56,6 @@ header {
     height: 80px;
     color: var(--cor3);
     padding: 10px;
-    
-    font-family: "Montserrat";
   }
 
   .redes {
@@ -114,7 +113,7 @@ header {
   }
 
   #pedir {
-    background-color: #002129d8;
+    background-color: transparent;
     color: var(--cor1);
     border-radius: 10px;
     border: 1px solid #fab414;
@@ -133,7 +132,6 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center left;
-    font-family: "Cinzel", serif;
     height: 65vh;
 }
 
@@ -146,7 +144,23 @@ header {
 
 .texto h1 {
     padding: 30px 0 50px 0;
-    font-size: 6vh;
+    font-size: 5vh;
+    font-family: "Cinzel", serif;
+}
+
+.texto button {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid var(--cor1);
+    color: var(--cor1);
+    font-weight: bold;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.texto button:hover {
+    background-color: var(--cor1);
+    color: var(--cor2);
 }
 
 #aqui {
@@ -257,10 +271,8 @@ header {
 }
 
 .detalhes a button {
-    border: 2px solid var(--cor1);
     padding: 15px 10px;
     border-radius: 5px;
-    color: var(--cor1);
     font-weight: 700;
     background-color: transparent;
     font-size: 1.2em;
